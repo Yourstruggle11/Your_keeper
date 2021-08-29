@@ -1,0 +1,32 @@
+//Get Requests
+GET http://localhost:5000/users/notes
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGZhZGFhNzdlNTA0NDAwMTViNmI4ODEiLCJpYXQiOjE2MjcxMzU3NDYsImV4cCI6MTY1ODY5MzM0Nn0.zYSS2Jz0QU7_vwAsuyMapvVUZz9s7t4OSZnlqP6-PmE
+###
+
+//Post Request
+POST http://localhost:5000/users/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGYzMTYyODI4OWIwMTNmOGMwNDQ3MTgiLCJpYXQiOjE2MjY1NDM2NjYsImV4cCI6MTY1ODEwMTI2Nn0.RbT43kUU3rM_zsX-BvdFKSN3o5zdUjJAuV9odd-IE08
+                    //eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGE3YTkwNThkZDhmNjZiZTBmYTk3ZGIiLCJpYXQiOjE2MjE2MDA1MzgsImV4cCI6MTY1MzE1ODEzOH0.JYvK0YljUqpx6XF561Ghnc10To80IBAHveUlaDvvQgo
+
+{                     
+    "title": "Joy shrzcxzcxzczxczxsfdsfsdee daam",
+    "body": "khela hoxcxcxcxxzczxczfsdfdsfsdfbei"
+}
+
+###
+
+PUT http://localhost:5000/users/notes/60ed579235c1b70574647e10
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGVjN2QzMGNhZDE5MTI5Mzg4OGMwNmUiLCJpYXQiOjE2MjYxMTMzMzMsImV4cCI6MTY1NzY3MDkzM30.739yuoTKFkBioI7TzjyF8zbDuQe71kyPtv7O14rydQM
+
+{                     
+    "title": "Joy shree raam",
+    "body": "khela hobei"
+}
+
+###
+
+DELETE http://localhost:5000/users/notes/60ed579235c1b70574647e10
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGVjN2QzMGNhZDE5MTI5Mzg4OGMwNmUiLCJpYXQiOjE2MjYxMTMzMzMsImV4cCI6MTY1NzY3MDkzM30.739yuoTKFkBioI7TzjyF8zbDuQe71kyPtv7O14rydQM
